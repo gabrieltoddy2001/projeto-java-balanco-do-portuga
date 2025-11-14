@@ -48,23 +48,6 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 
 ---
 
-## Estrutura do Projeto
-
-```bash
-📦 Balanço-do-Portuga
- ┣ 📂 src
- ┃ ┣ 📂 model        # Classes e entidades do sistema
- ┃ ┣ 📂 dao          # Conexão e operações no banco de dados
- ┃ ┣ 📂 ui           # Interfaces gráficas (Swing)
- ┣ 📂 lib            # Dependências externas
- ┣ 📄 README.md
- ┣ 📄 .gitignore
- ┣ 📄 database.sql
- ┣ 📄 pom.xml (caso utilize Maven)
-````
-
----
-
 ## Product Backlog (Resumo)
 
 | ID | Requisito / Item                     | Tipo           | Tempo (dias) |
