@@ -1,45 +1,32 @@
-````markdown
-<h1 align="center">🚗 Balanço do Portuga – Sistema de Aluguel de Veículos</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-Academic-blue?style=for-the-badge"/>
-</p>
-
-<p align="center">
-  <b>Projeto Integrador do curso de Análise e Desenvolvimento de Sistemas – Fundação Visconde de Cairu</b><br/>
-  <i>Salvador, 2025.2</i>
-</p>
+## Balanço do Portuga – Sistema de Aluguel de Veículos</h1>
 
 ---
 
-## 👨‍💻 Autores
+# Autores
 
 - **Gabryel Rosa Bomfim**  
 - **Gabriel dos Santos Silva**
 
-👨‍🏫 **Professor Orientador:** André Portuga  
-🏫 Fundação Visconde de Cairu – Salvador (BA)  
-📅 Semestre: 2025.2  
+**Professor Orientador:** André Portuga  
+Fundação Visconde de Cairu – Salvador (BA)  
+Semestre: 2025.2  
 
 ---
 
-## 🧭 Introdução
+## Introdução
 
-O projeto **Balanço do Portuga** tem como objetivo desenvolver um **sistema orientado a objetos** que simule o funcionamento de uma **locadora de veículos**.  
+O projeto **Balanço do Portuga** tem como objetivo desenvolver um **sistema orientado a objetos** que simule o funcionamento de uma **locadora de veículos**.
 
-A aplicação foi desenvolvida em **Java SE**, utilizando **NetBeans** e **MySQL**, com foco em **modularidade, escalabilidade e aplicação de POO**.  
+A aplicação foi desenvolvida em **Java SE**, utilizando **NetBeans** e **MySQL**, com foco em **modularidade, escalabilidade e aplicação de POO**.
 O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamentos**, além de gerar relatórios administrativos.
 
 ---
 
-## 🚀 Funcionalidades Principais
+## Funcionalidades Principais
 
 | Módulo | Funcionalidades |
 |--------|------------------|
-| **Clientes** | Cadastro, edição, consulta e exclusão de clientes |
+| **Clientes** | Cadastro, edição, consulta e exclusão e pagamentos |
 | **Funcionários** | Gestão de usuários internos e controle de acesso |
 | **Veículos** | Cadastro, controle de disponibilidade e histórico |
 | **Reservas** | Registro de locações, devoluções e cancelamentos |
@@ -48,11 +35,11 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 
 ---
 
-## 🧱 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Categoria | Ferramenta |
 |------------|-------------|
-| **Linguagem** | Java SE 17+ |
+| **Linguagem** | Java SE 21+ |
 | **IDE** | NetBeans |
 | **Banco de Dados** | MySQL |
 | **Interface Gráfica** | Swing |
@@ -61,7 +48,7 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```bash
 📦 Balanço-do-Portuga
@@ -78,7 +65,7 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 
 ---
 
-## 📋 Product Backlog (Resumo)
+## Product Backlog (Resumo)
 
 | ID | Requisito / Item                     | Tipo           | Tempo (dias) |
 | -- | ------------------------------------ | -------------- | ------------ |
@@ -98,11 +85,11 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 | 14 | Interface de Funcionários e Usuários | Interface      | 2            |
 | 15 | Verificar e corrigir bugs            | Manutenção     | 7            |
 
-🕓 **Tempo Total Estimado:** 54 dias
+**Tempo Total Estimado:** 54 dias
 
 ---
 
-## 📆 Cronograma de Desenvolvimento
+## Cronograma de Desenvolvimento
 
 | Mês          | Atividades                                            |
 | ------------ | ----------------------------------------------------- |
@@ -112,9 +99,9 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 
 ---
 
-## 🧩 Requisitos do Sistema
+## Requisitos do Sistema
 
-### 👥 Cliente
+### Cliente
 
 * RF001 – Incluir Cliente
 * RF002 – Consultar Cliente
@@ -125,7 +112,7 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 * RNF002 – Não é permitido incluir cliente com CPF repetido
 * RNF003 – CNH vencida, suspensa ou cassada não é aceita
 
-### 👨‍💼 Funcionário
+### Funcionário
 
 * RF006 – Incluir Funcionário
 * RF007 – Consultar Funcionário
@@ -135,7 +122,7 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 * RNF004 – Campos obrigatórios devem ser preenchidos
 * RNF005 – Não permitir CPF duplicado
 
-### 🧰 Serviço
+### Serviço
 
 * RF011 – Incluir Serviço
 * RF012 – Consultar Serviço
@@ -144,7 +131,7 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 * RF015 – Pesquisar Serviço
 * RNF007 – Todos os campos obrigatórios devem ser preenchidos
 
-### 🚘 Veículos
+### Veículos
 
 * RF016 – Incluir Veículo
 * RF017 – Consultar Veículo
@@ -153,21 +140,21 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 * RF020 – Pesquisar Veículo
 * RNF008 – Todos os campos obrigatórios devem ser preenchidos
 
-### 💳 Pagamentos
+### Pagamentos
 
 * RF021 – Registrar Pagamento
 * RF022 – Cancelar Pagamento
 * RNF009 – Campos obrigatórios devem ser preenchidos
 * RNF010 – Não registrar pagamento com valor diferente da dívida
 
-### 📊 Relatórios
+### Relatórios
 
 * RNF011 – Todos os filtros obrigatórios devem ser preenchidos
 * RNF012 – Data final não pode ser menor que a inicial
 
 ---
 
-## 💼 Regras de Negócio
+## Regras de Negócio
 
 | Código | Descrição                                                 |
 | ------ | --------------------------------------------------------- |
@@ -182,7 +169,7 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 
 ---
 
-## 🧠 Conceitos Aplicados
+## Conceitos Aplicados
 
 * **POO:** Encapsulamento, Herança e Polimorfismo
 * **Padrão MVC:** Separação entre interface, lógica e dados
@@ -192,23 +179,7 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 
 ---
 
-## 🖼️ Telas do Sistema *(adicionar prints futuramente)*
-
-<p align="center">
-  <img src="assets/tela-login.png" width="45%" alt="Tela de Login"/>
-  <img src="assets/tela-cadastro.png" width="45%" alt="Tela de Cadastro de Cliente"/>
-</p>
-
-<p align="center">
-  <img src="assets/tela-veiculos.png" width="45%" alt="Tela de Veículos"/>
-  <img src="assets/tela-relatorios.png" width="45%" alt="Tela de Relatórios"/>
-</p>
-
-> 💡 Crie uma pasta `assets/` no repositório e adicione seus prints lá.
-
----
-
-## 📚 Referências
+## Referências
 
 * **LARMAN, C.** *Utilizando UML e Padrões.* [s.l: s.n.]
 * **Querobolsa.** [Requisitos funcionais e não funcionais](https://querobolsa.com.br/revista/requisitos-funcionais-e-nao-funcionais)
@@ -219,29 +190,8 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 
 ---
 
-<p align="center">
-  <b>Fundação Visconde de Cairu – Curso de Análise e Desenvolvimento de Sistemas</b><br/>
-  Salvador, 2025.2
-</p>
-```
+## **Autores**
 
----
-
-### 💡 Dica:
-
-Crie uma pasta chamada `assets/` dentro do repositório e coloque prints das telas, ex:
-
-```
-assets/
- ┣ tela-login.png
- ┣ tela-cadastro.png
- ┣ tela-veiculos.png
- ┣ tela-relatorios.png
-```
-
-Assim as imagens aparecem automaticamente no README!
-
----
-
-Quer que eu adicione também uma **seção de instalação e execução** (por exemplo, “como rodar o projeto no NetBeans e conectar ao banco MySQL”)?
-Isso deixaria o README 100% completo para o GitHub.
+**Gabriel Silva**
+**Gabriel Rosa**
+* Estudantes em Análise e Desenvolvimento de Sistemas - Faculdade Visconde de Cairu
