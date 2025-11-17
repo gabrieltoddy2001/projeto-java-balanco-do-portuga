@@ -7,7 +7,7 @@
 - **Gabryel Rosa Bomfim**  
 - **Gabriel dos Santos Silva**
 
-**Professor Orientador:** André Portuga  
+**Professor Orientador:** André Portugal  
 Fundação Visconde de Cairu – Salvador (BA)  
 Semestre: 2025.2  
 
