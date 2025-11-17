@@ -170,11 +170,3 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 * **Lucidchart.** [Modelos e exemplos de diagramas UML](https://www.lucidchart.com/blog/pt/modelos-e-exemplos-de-diagramas-uml)
 * **Runrun.it.** [Backlog: o que é e como melhorar processos](https://blog.runrun.it/backlog/)
 * **Scrum.org.** [What is a Sprint Backlog?](https://www.scrum.org/resources/what-is-a-sprint-backlog)
-
----
-
-## **Autores**
-
-**Gabriel Silva**
-**Gabriel Rosa**
-* Estudantes em Análise e Desenvolvimento de Sistemas - Faculdade Visconde de Cairu
