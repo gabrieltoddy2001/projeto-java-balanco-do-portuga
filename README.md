@@ -1,4 +1,4 @@
-## Balanço do Portuga – Sistema de Aluguel de Veículos</h1>
+# Balanço do Portuga – Sistema de Aluguel de Veículos
 
 ---
 
@@ -17,7 +17,7 @@ Semestre: 2025.2
 
 O projeto **Balanço do Portuga** tem como objetivo desenvolver um **sistema orientado a objetos** que simule o funcionamento de uma **locadora de veículos**.
 
-A aplicação foi desenvolvida em **Java SE**, utilizando **NetBeans** e **MySQL**, com foco em **modularidade, escalabilidade e aplicação de POO**.
+A aplicação foi desenvolvida em **Java SE**, utilizando **NetBeans**, interface **Swing** e banco **SQLite**, com foco em **modularidade, escalabilidade e aplicação de POO**.
 O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamentos**, além de gerar relatórios administrativos.
 
 ---
@@ -35,13 +35,49 @@ O sistema gerencia **cadastro de carros, clientes, contratos, reservas e pagamen
 
 ---
 
+## Versão Web
+
+Este é o **programa desktop (Swing)**. O mesmo sistema também existe em versão web (JSF + PrimeFaces):
+[projeto-javaweb-balanco-do-portuga](https://github.com/gabrieltoddy2001/projeto-javaweb-balanco-do-portuga).
+
+---
+
+## Como Executar
+
+**Requisito:** Java 21 ou superior.
+
+### Opção 1 – Baixar o programa pronto
+
+1. Baixe o arquivo `BalancoDoPortuga.zip` na página de [Releases](https://github.com/gabrieltoddy2001/projeto-java-balanco-do-portuga/releases).
+2. Extraia o zip (mantenha a pasta `lib` ao lado do `.jar`).
+3. Dê dois cliques em `BalancoDoPortuga.jar` ou rode:
+
+```bash
+java -jar BalancoDoPortuga.jar
+```
+
+O banco `balancodoportuga.db` é criado automaticamente na pasta onde o programa for executado.
+
+### Opção 2 – Pelo NetBeans
+
+1. Clone o repositório e abra a pasta no NetBeans (é um projeto Ant).
+2. A dependência `sqlite-jdbc` já está em `lib/`.
+3. Use **Run** (F6) ou **Clean and Build** para gerar o `.jar` em `dist/`.
+
+### Acesso
+
+- **Funcionário (administrador):** usuário `admin` – a senha está definida em `src/com/balancodoportuga/controller/LoginController.java`.
+- **Cliente:** e-mail cadastrado pelo administrador, usando o CPF como senha.
+
+---
+
 ## Tecnologias Utilizadas
 
 | Categoria | Ferramenta |
 |------------|-------------|
 | **Linguagem** | Java SE 21+ |
 | **IDE** | NetBeans |
-| **Banco de Dados** | MySQL |
+| **Banco de Dados** | SQLite (arquivo local, via sqlite-jdbc) |
 | **Interface Gráfica** | Swing |
 | **Controle de Versão** | Git & GitHub |
 | **Metodologia** | Scrum (Product Backlog / Sprint Backlog) |

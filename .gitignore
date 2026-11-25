@@ -1,0 +1,15 @@
+# Saidas de build do NetBeans/Ant (geradas ao compilar)
+/build/
+/dist/
+
+# Configuracoes locais do NetBeans
+/nbproject/private/
+
+# Banco local: e criado automaticamente na primeira execucao
+*.db
+
+# Sistema operacional / IDEs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
